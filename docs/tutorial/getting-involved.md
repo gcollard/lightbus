@@ -14,7 +14,7 @@ engage with others, and how you should expect to be treated yourself.
 
 ## How to get started (non-coding)
 
-There are lots of ways you can get even without getting stuck into code. Even if you are a 
+There are lots of ways you can get involved even without getting stuck into code. Even if you are a 
 Python developer, this can still be a good place to start:
 
 * **Say hello** [in our community chat](https://discord.gg/2j594ws). We can have a chat about ways 

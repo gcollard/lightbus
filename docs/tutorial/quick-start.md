@@ -74,7 +74,7 @@ You should now have the following structure:
 * `./auth_service/bus.py`, created above
 * `./another_service/`, which we will create files within now.
 
-We always we define a service's `bus` client within a `bus.py` file.
+We always define a service's `bus` client within a `bus.py` file.
 Therefore, create `./another_service/bus.py` containing the following:
 
 ```python3
@@ -113,7 +113,7 @@ Running this script should show you the following:
     Password valid!
 
 Looking at the other terminal window you have open you should see that
-Lightbus has also reported that it is handled a remote procedure call.
+Lightbus has also reported that it is handled as a remote procedure call.
 
 ## 2.4 Events
 
@@ -136,7 +136,7 @@ register it.
 # ./auth_service/manually_register_user.py
 
 # Import the service's bus client from bus.py
-from bus import bus
+from .bus import bus
 
 print("New user creation")
 new_username = input("Enter a username: ").strip()
@@ -213,7 +213,7 @@ python3 manually_register_user.py
 ``` 
 
 You should see that the event gets sent by the `manually_register_user.py` script within the 
-`auth_service`, and received by by the `lightbus run` process within the `another_service`.
+`auth_service`, and received by the `lightbus run` process within the `another_service`.
 
 ![Listening for and firing an event][events]
 

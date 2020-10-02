@@ -160,7 +160,7 @@ Next we will create the dashboard which will make use of the `store.page_viewed`
 The dashboard service will provide internal reporting in the form
 of page view statistics for the online store.
 
-There dashboard will need to both receive events and provide a web
+The dashboard will need to both receive events and provide a web
 interface. It will therefore need both a lightbus process and a
 web process.
 
@@ -317,7 +317,7 @@ Go back to the store and view a few pages. Now refresh the dashboard and note th
 
 ## 3.7. Wrapping up
 
-While the services we have have created here are very crude, hopefully they have helped
+While the services we have created here are very crude, hopefully they have helped
 show how Lightbus can be used as a effective communications infrastructure.
 
 If you want to continue with practical learning, you should take a look at the 

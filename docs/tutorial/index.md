@@ -16,7 +16,7 @@ We recommend you approach the tutorials in the following order:
 2. [Quick start]
 3. [Worked example]
 
-[explanation]: index.md
+[explanation]: explanation/index.md
 [Installation]: installation.md
 [Quick start]: quick-start.md
 [Worked example]: worked-example.md
